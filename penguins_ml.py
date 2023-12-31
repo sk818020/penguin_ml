@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import pickle
 
-data_path = r'C:\Users\Jared\stream_lit_projects\streamlit_for_data_science_book_downloads\Streamlit-for-Data-Science\penguin_app\penguins.csv'
+data_path = r'penguins.csv'
 penguin_df = pd.read_csv(data_path)
 penguin_df.dropna(inplace=True)
 output = penguin_df['species']
